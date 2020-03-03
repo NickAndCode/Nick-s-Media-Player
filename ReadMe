@@ -2,7 +2,7 @@ The application can only play WAV files.
 The Media Player allows user to select file by clicking the open file button, then select the file. 
 User then clicks the Load button to load the file into the player.
 Once file is loaded into player, user can click the Play button to play file.
-Uer can also click the Play On Repeat button to loop through the file.
-Once user is finish listen to file, user can click the Stop button to stop the file or Exit button to exit the application.
+User can also click the Play On Repeat button to loop through the file.
+Once user is finished, user can click the Stop button to stop the file or Exit button to exit the application.
 This is my first commit or project from what I've learned about C#. 
 I plan to upgrade application to play MP3 files and also have the user load multiple files into player.
