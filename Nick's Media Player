@@ -62,7 +62,7 @@ namespace NicksMediaPlayer
             MyLabel2.ForeColor = System.Drawing.SystemColors.Desktop; // This is the Color structure that is the color of the desktop.
             MyLabel2.Location = new System.Drawing.Point(420, 219); // This places the MyLabel2 in different locations.
             MyLabel2.Size = new System.Drawing.Size(60, 20); // This will change the size of MyLabel2.
-            MyLabel2.Text = DateTime.Now.ToShortDateString(); // Method #2 of System namespace, the ToShortDateString method converts the value of the current DateTime object to its equivalent short date string representation.
+            MyLabel2.Text = DateTime.Now.ToShortDateString(); // The ToShortDateString method converts the value of the current DateTime object to its equivalent short date string representation.
             MyLabel2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter; // This will align the text to center of the label.
             // 
             // Textbox
@@ -72,7 +72,7 @@ namespace NicksMediaPlayer
             Textbox.ForeColor = System.Drawing.SystemColors.Desktop; // This is the Color structure that is the color of the desktop.
             Textbox.Location = new System.Drawing.Point(71, 38); // This places the Textbox in different locations.
             Textbox.Size = new System.Drawing.Size(329, 40); // This will change the size of the Texboxt.
-            Textbox.Text = DateTime.Now.ToString("dddd, MMM dd yyyy, hh:mm"); // Method #3 of the System namespace, the ToString method converts the value of the current DateTime object to its equivalent string representation.
+            Textbox.Text = DateTime.Now.ToString("dddd, MMM dd yyyy, hh:mm"); // The ToString method converts the value of the current DateTime object to its equivalent string representation.
             Textbox.TextAlign = HorizontalAlignment.Center; // This will align the text to center of the Textbox.
             // 
             // selectFileButton
@@ -245,7 +245,7 @@ namespace NicksMediaPlayer
         private void SelectedFile(object sender, EventArgs e)
         {
             string message = string.Format("Selected File: {0}", player.SoundLocation);
-            // ^ String.Format Method #5 of System namespace, Converts the value of objects to strings based on the formats specified and inserts them into another string.
+            // Converts the value of objects to strings based on the formats specified and inserts them into another string.
             MessageBar(message);
         }
         // The LoadButton method is called to loadButton so the user can click the button and load the music file in the application.
