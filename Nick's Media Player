@@ -208,8 +208,7 @@ namespace NicksMediaPlayer
         private void MessageBar(string statusMessage) // This method is created to show status of file in the StatusBar. 
         {
             if (!string.IsNullOrEmpty(statusMessage)) // Indicates whether the specified string is null or an empty string (""). Null forgiving operator.
-            {// This is where you can get a string from another method that has the MessageBar inside their method.
-                // This will happen after the method calls the MessageBar to the status bar.
+            {
                 statusBar.Panels[0].Text = statusMessage;
             }
         }
